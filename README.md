@@ -1,3 +1,1 @@
-# cpsc463
-
-https://nando96.github.io/cpsc463/
+cpsc 463 - software testing
