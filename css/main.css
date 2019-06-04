@@ -1,0 +1,69 @@
+body {
+  color: #585559;
+  background: rgb(163,222,220);
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(194,218,217);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #452210;
+}
+
+.main {
+  margin-left: 180px;
+}
+
+.signup {
+  background: #f0f2f2;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+#regForm {
+  font-size: 50px;
+}
+
+.main h2 {
+  color: #332c2c;
+  font-size: 60px;
+  padding: 0px 10px;
+}
+
+.main p {
+  color: #5e2e17;
+  font-size: 50px;
+  font-style: oblique;
+  font-family: serif;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 20px;}
+}
+
+footer{
+    padding: 10px;
+    text-align: right;
+    color: #3a373b;
+    font-size: 20px;
+    /*font-family: 'Stalemate', cursive;*/
+}
